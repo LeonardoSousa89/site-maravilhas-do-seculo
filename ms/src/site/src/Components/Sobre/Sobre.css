@@ -1,0 +1,14 @@
+.conteinerSobre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.card{
+    border: 1px solid whitesmoke; /*retirar as bordas ao preencher o conteúdo*/
+    height: 30em;
+}
+.titulo ,.conteudo, .consideracao{
+    padding:1%;
+}

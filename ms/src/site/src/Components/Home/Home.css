@@ -1,0 +1,22 @@
+.conteinerHome{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+img{
+    width: 100%;
+}
+.subConteinerHome{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ladoA, .ladoB{
+    height: 100%;
+    width: 100%;
+}
+.ladoB{  
+}
+

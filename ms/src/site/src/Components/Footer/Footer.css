@@ -1,0 +1,56 @@
+.conteinerFooter{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #C4C4C4;
+    height: 5em;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.subConteinerFooter{
+    padding: 0.3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+label{
+    margin-right: 0.1em;
+}
+label,input{
+    margin-top: 3%;
+}
+input,button{
+  height: 25%;
+  width: 50%;  
+}
+input{
+    height: 20%;
+    width: 72%;
+    cursor: pointer;
+
+    transition-property: outline-color;
+    transition-duration: 1s;
+}
+input:hover{
+    outline-color:#25D7FE;
+}
+.btn{
+height: 30%;
+width: 91.7%;
+background-color: black;
+color: aliceblue;
+text-align: center;
+padding: 0.1em;
+cursor: pointer;
+
+
+transition-property:background-color,color ;
+transition-duration: 1s;
+}
+button:hover{
+    color: black;
+    background-color:whitesmoke;
+}
+.direitos{
+    margin-top: 4em;
+    font-size: small;
+}
