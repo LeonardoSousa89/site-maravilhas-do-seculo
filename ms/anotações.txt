@@ -1,0 +1,5 @@
+no modo celular (vertical)
+
+°inserir um toggle para o header e inserir contatos do desenvolvedor
+°ocultar do footer contatos do desenvolvedor
+°todo o conteúdo das páginas serão (flex-direction:column;)

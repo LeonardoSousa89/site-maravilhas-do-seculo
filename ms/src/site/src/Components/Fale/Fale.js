@@ -87,9 +87,7 @@ export default class Fale extends Component{
                             </div>
                             <img className="msg" src={Msg}></img>
                         </div>
-                        <div className="area2">
-                            <h1 className="texto">breve descrição aqui</h1>
-                        </div>
+                       
                     </div>
                 </div>
             )
