@@ -12,3 +12,14 @@
 .titulo ,.conteudo, .consideracao{
     padding:1%;
 }
+@media(max-width:700px){
+
+}
+
+@media(max-width:600px){
+    
+}
+
+@media(max-width:500px){
+    
+}

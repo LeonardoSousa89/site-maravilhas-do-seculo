@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Foto from '../../Assets/vida.jpg'
+import Msg from '../../Assets/msg.jpg'
 import './Fale.css'
 
 import DB from '../DB/DB'
@@ -72,7 +73,23 @@ export default class Fale extends Component{
                     
 
                     <div className="ladoD">
-                        <h1 className="texto">breve descrição aqui</h1>
+                        <div className="area1">
+                            <div className="dialogo">
+                                <h2 className="sugestao"> Seja Muito bem Vindo! </h2>
+                                <p className="recado">nesta seção gostariamos de convidar a todos os
+                                    nossos queridos clientes e visitantes a participar em, deixar
+                                    suas sugestões e critícas a respeito de nosso trabalho.
+                                    Como poderíamos melhor atendê-los e também deixá-los a par 
+                                    de nossas promoções e engajados a par do conhecimento com o qual 
+                                    possamos compartilhar para, que venhamos a construir um vinculo e engajamento social
+                                    que contribua para o benefício de todos nós, como seres-humanos.
+                                </p>
+                            </div>
+                            <img className="msg" src={Msg}></img>
+                        </div>
+                        <div className="area2">
+                            <h1 className="texto">breve descrição aqui</h1>
+                        </div>
                     </div>
                 </div>
             )
